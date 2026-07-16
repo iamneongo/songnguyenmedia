@@ -100,7 +100,7 @@ export default function App() {
             loop 
             playsInline 
             className="absolute inset-0 w-full h-full object-cover origin-center"
-            src="/banner.mp4"
+            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260525_052706_d2e390fd-1846-4fe7-a4d8-8d2f1c875358.mp4"
           />
           
           {/* Semi-transparent Overlay */}
