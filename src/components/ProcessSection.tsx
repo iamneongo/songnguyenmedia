@@ -74,12 +74,12 @@ export default function ProcessSection() {
   }, { scope: sectionRef });
 
   return (
-    <section ref={sectionRef} className="bg-[#1a1a1a] h-screen flex flex-col pb-16 overflow-hidden">
+    <section ref={sectionRef} className="bg-[#1a1a1a] h-[100vh] min-h-[600px] flex flex-col pb-6 md:pb-16 overflow-hidden">
       
       {/* Spacer to guarantee distance from the top */}
-      <div className="h-24 md:h-32 shrink-0 w-full pointer-events-none" />
+      <div className="h-20 md:h-32 shrink-0 w-full pointer-events-none" />
 
-      <div className="process-intro shrink-0 px-6 md:px-16 z-10 mb-8 md:mb-12">
+      <div className="process-intro shrink-0 px-6 md:px-16 z-10 mb-6 md:mb-12">
         <h2 className="text-[#D9C4AA] text-4xl md:text-5xl lg:text-6xl font-normal leading-[1.2]">
           Quy trình <em className="not-italic text-white" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>sáng tạo</em>
         </h2>
@@ -90,21 +90,21 @@ export default function ProcessSection() {
 
       {/* Horizontal Scroll Container */}
       <div ref={containerRef} className="flex-1 min-h-0 flex flex-nowrap items-center px-6 md:px-16 w-[fit-content]">
-        <div className="flex gap-8 md:gap-16">
+        <div className="flex gap-6 md:gap-16">
           {PROCESS_STEPS.map((step, index) => (
             <div 
               key={index} 
-              className="w-[85vw] md:w-[500px] lg:w-[600px] bg-[#222] rounded-[30px] p-8 md:p-12 flex flex-col justify-between shrink-0 h-[45vh] min-h-[320px] max-h-[500px] border border-white/5"
+              className="w-[85vw] md:w-[500px] lg:w-[600px] bg-[#222] rounded-[30px] p-6 md:p-12 flex flex-col justify-between shrink-0 h-[45vh] min-h-[280px] max-h-[500px] border border-white/5"
             >
               <div>
-                <span className="text-[#D9C4AA] text-6xl md:text-8xl font-medium opacity-20 block mb-6">
+                <span className="text-[#D9C4AA] text-5xl md:text-8xl font-medium opacity-20 block mb-4 md:mb-6">
                   {step.number}
                 </span>
-                <h3 className="text-white text-3xl md:text-4xl font-normal mb-6">
+                <h3 className="text-white text-2xl md:text-4xl font-normal mb-4 md:mb-6">
                   {step.title}
                 </h3>
               </div>
-              <p className="text-white/70 text-base md:text-lg leading-relaxed font-medium">
+              <p className="text-white/70 text-sm md:text-lg leading-relaxed font-medium">
                 {step.description}
               </p>
             </div>
