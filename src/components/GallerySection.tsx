@@ -5,7 +5,14 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-
+const IMAGES = [
+  "https://placehold.co/800x1000/1a1a1a/F6E4CF?text=Image+1",
+  "https://placehold.co/800x600/1a1a1a/F6E4CF?text=Image+2",
+  "https://placehold.co/800x800/1a1a1a/F6E4CF?text=Image+3",
+  "https://placehold.co/800x1200/1a1a1a/F6E4CF?text=Image+4",
+  "https://placehold.co/800x600/1a1a1a/F6E4CF?text=Image+5",
+  "https://placehold.co/800x900/1a1a1a/F6E4CF?text=Image+6"
+];
 
 export default function GallerySection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -45,19 +52,16 @@ export default function GallerySection() {
             Góc nhìn <em className="not-italic text-[#F6E4CF]" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>Nghệ thuật</em>
           </h2>
           <p className="text-white/70 mt-4 max-w-xl mx-auto text-sm md:text-base">
-            Những tác phẩm mang đậm dấu ấn thị giác và cảm xúc
+            Những khoảnh khắc tuyệt đẹp được chúng tôi lưu giữ qua ống kính. Mỗi khung hình đều chứa đựng linh hồn của thương hiệu.
           </p>
         </div>
 
         <div className="gallery-grid columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-          {Array(6).fill('/banner.mp4').map((src, idx) => (
+          {IMAGES.map((src, idx) => (
             <div key={idx} className="gallery-img break-inside-avoid overflow-hidden rounded-[24px] relative group cursor-pointer">
-              <video 
+              <img 
                 src={src} 
-                autoPlay 
-                muted 
-                loop 
-                playsInline
+                alt={`Gallery ${idx + 1}`} 
                 className="w-full h-auto object-cover transform transition-transform duration-1000 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">

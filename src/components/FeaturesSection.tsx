@@ -16,19 +16,19 @@ const FEATURES = [
     id: 'feature-1',
     title: "Phim Quảng Cáo Doanh Nghiệp",
     description: "Khắc họa chân dung doanh nghiệp thông qua những thước phim điện ảnh. Chúng tôi lột tả giá trị cốt lõi và tầm nhìn của bạn một cách sâu sắc nhất.",
-    video: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_102608_5fa1187d-9ac6-44fb-82ab-54376200abc0.mp4"
+    video: "/banner.mp4"
   },
   {
     id: 'feature-2',
     title: "Chiến Dịch Mạng Xã Hội",
     description: "Tạo ra những nội dung viral đầy sức hút, tối ưu hóa cho từng nền tảng, giúp thương hiệu tương tác mạnh mẽ với khán giả mục tiêu.",
-    video: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260625_174131_395bc785-bb21-4e65-abf6-27c56f0764b6.mp4"
+    video: "/banner.mp4"
   },
   {
     id: 'feature-3',
     title: "Sản Xuất Music Video (MV)",
     description: "Kể câu chuyện âm nhạc bằng ngôn ngữ hình ảnh đột phá, màu sắc độc bản và kỹ xảo đỉnh cao, đem lại trải nghiệm thị giác ấn tượng.",
-    video: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260525_052706_d2e390fd-1846-4fe7-a4d8-8d2f1c875358.mp4"
+    video: "/banner.mp4"
   }
 ];
 
