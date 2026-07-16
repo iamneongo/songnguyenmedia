@@ -68,7 +68,7 @@ export default function TestimonialsSection() {
           {TESTIMONIALS.map((testimonial, i) => (
             <div 
               key={i} 
-              ref={el => cardsRef.current[i] = el}
+              ref={el => { cardsRef.current[i] = el; }}
               className="flex flex-col gap-6"
             >
               <Quote className="text-[#D9C4AA] w-10 h-10" />

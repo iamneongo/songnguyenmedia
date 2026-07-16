@@ -140,7 +140,7 @@ export default function FeaturesSection() {
               <div 
                 key={feature.id}
                 id={feature.id}
-                ref={el => cardsRef.current[index] = el}
+                ref={el => { cardsRef.current[index] = el; }}
                 className="bg-black/20 backdrop-blur-md rounded-3xl p-6 md:p-10 border border-white/5"
               >
                 <div className="mb-6">
