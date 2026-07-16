@@ -9,6 +9,7 @@ import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
 import FeaturesSection from './components/FeaturesSection';
 import ProcessSection from './components/ProcessSection';
+import GallerySection from './components/GallerySection';
 import ClientsSection from './components/ClientsSection';
 import StatsSection from './components/StatsSection';
 import TestimonialsSection from './components/TestimonialsSection';
@@ -150,6 +151,9 @@ export default function App() {
 
         {/* SECTION 3.5: PROCESS */}
         <ProcessSection />
+
+        {/* SECTION 3.7: GALLERY */}
+        <GallerySection />
 
         {/* SECTION 4: CLIENTS */}
         <ClientsSection />
