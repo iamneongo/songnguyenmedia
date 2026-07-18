@@ -15,19 +15,19 @@ const FEATURES = [
   {
     id: 'feature-1',
     title: "Phim Quảng Cáo Doanh Nghiệp",
-    description: "Khắc họa chân dung doanh nghiệp thông qua những thước phim điện ảnh. Chúng tôi lột tả giá trị cốt lõi và tầm nhìn của bạn một cách sâu sắc nhất.",
+    description: "Sản xuất video giới thiệu công ty, quy trình sản xuất và phỏng vấn ban lãnh đạo doanh nghiệp.",
     video: "/banner.mp4"
   },
   {
     id: 'feature-2',
     title: "Chiến Dịch Mạng Xã Hội",
-    description: "Tạo ra những nội dung viral đầy sức hút, tối ưu hóa cho từng nền tảng, giúp thương hiệu tương tác mạnh mẽ với khán giả mục tiêu.",
+    description: "Sản xuất video ngắn, hình ảnh và bài viết phù hợp với định dạng của Facebook, TikTok và Instagram.",
     video: "/banner.mp4"
   },
   {
     id: 'feature-3',
     title: "Sản Xuất Music Video (MV)",
-    description: "Kể câu chuyện âm nhạc bằng ngôn ngữ hình ảnh đột phá, màu sắc độc bản và kỹ xảo đỉnh cao, đem lại trải nghiệm thị giác ấn tượng.",
+    description: "Lên ý tưởng kịch bản, tổ chức quay hình và xử lý hậu kỳ cho các dự án âm nhạc.",
     video: "/banner.mp4"
   }
 ];
@@ -104,7 +104,7 @@ export default function FeaturesSection() {
         <div className="lg:sticky lg:top-0 lg:h-screen lg:flex lg:flex-col lg:justify-between lg:py-32 lg:gap-8">
           <div>
             <h2 className="text-white text-2xl sm:text-3xl lg:text-[46px] leading-[1.2] font-normal mb-12">
-              Những tác phẩm mang đậm dấu ấn thị giác và cảm xúc
+              Các định dạng nội dung chúng tôi thực hiện
             </h2>
             
             <div className="hidden lg:flex flex-col gap-4">
@@ -125,7 +125,7 @@ export default function FeaturesSection() {
           
           <div className="hidden lg:block mt-8 lg:mt-auto">
             <p className="text-white/80 text-sm font-medium mb-6 max-w-sm">
-              Khám phá cách chúng tôi biến ý tưởng thành những chiến dịch thành công.
+              Xem cách chúng tôi triển khai từng định dạng nội dung cụ thể.
             </p>
             <button className="bg-white text-black text-sm font-medium px-6 py-3 rounded-xl hover:bg-white/90 transition-colors">
               Bắt đầu dự án

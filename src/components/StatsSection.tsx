@@ -10,19 +10,19 @@ const STATS = [
     target: 12,
     suffix: "+",
     label: "Năm kinh nghiệm",
-    description: "Đủ để hiểu sâu sắc thị trường và xu hướng."
+    description: "Hoạt động trong lĩnh vực sản xuất nội dung hình ảnh."
   },
   {
     target: 500,
     suffix: "+",
-    label: "Dự án hoàn thành",
-    description: "Những chiến dịch mang lại hiệu quả thực tế."
+    label: "Dự án",
+    description: "Sản phẩm đã được bàn giao và nghiệm thu."
   },
   {
     target: 30,
     suffix: "+",
     label: "Giải thưởng",
-    description: "Sự công nhận từ các tổ chức uy tín trong ngành."
+    description: "Tại các liên hoan phim và sự kiện quảng cáo."
   }
 ];
 
@@ -85,11 +85,11 @@ export default function StatsSection() {
       <div className="max-w-6xl mx-auto">
         <div className="stats-title mb-20 text-center md:text-left">
           <p className="text-[#D9C4AA] text-sm uppercase tracking-[0.2em] font-semibold mb-4 text-[#321C04]/60">
-            Dấu ấn
+            Kinh nghiệm
           </p>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-normal leading-[1.2]">
-            Những con số <br className="hidden md:block" />
-            <em className="not-italic" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>biết nói</em>
+            Năng lực <br className="hidden md:block" />
+            <em className="not-italic" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>triển khai</em>
           </h2>
         </div>
 

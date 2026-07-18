@@ -115,21 +115,21 @@ export default function App() {
           <div className="relative z-10 h-full flex flex-col justify-end items-center pb-12 md:pb-16 px-4">
             <div ref={heroTextRef}>
               <h1 className="text-center text-5xl sm:text-7xl md:text-8xl lg:text-[96px] font-normal text-white leading-[1.1] tracking-tight mb-6">
-                Sáng tạo nghệ thuật <br />
-                vượt mọi <em className="not-italic" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>giới hạn</em>
+                Sản xuất hình ảnh <br />
+                và <em className="not-italic" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>video thương mại</em>
               </h1>
               
               <p className="text-white/80 text-sm md:text-base font-medium max-w-[420px] text-center mx-auto mb-10">
-                Chúng tôi kể câu chuyện thương hiệu của bạn qua những thước phim nghệ thuật và chiến dịch truyền thông đột phá.
+                Song Nguyễn Media sản xuất phim quảng cáo và triển khai các chiến dịch truyền thông cho doanh nghiệp.
               </p>
               
               <div className="flex justify-center">
                 <div className="bg-black/25 backdrop-blur-md rounded-xl flex items-center pl-6 pr-1 py-1">
                   <span className="text-white text-sm font-medium hidden sm:block mr-4">
-                    Tinh tế. Khác biệt. Đẳng cấp. Biến ý tưởng thành hiện thực.
+                    Xem các dự án nổi bật chúng tôi đã thực hiện.
                   </span>
                   <span className="text-white text-sm font-medium sm:hidden mr-4">
-                    Tinh tế. Khác biệt. Đẳng cấp.
+                    Dự án nổi bật
                   </span>
                   <button className="bg-white text-black text-sm font-medium px-5 py-2.5 rounded-xl hover:bg-white/90 transition-colors whitespace-nowrap">
                     Xem các dự án

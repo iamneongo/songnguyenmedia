@@ -64,13 +64,13 @@ export default function AboutSection() {
 
   }, { scope: sectionRef });
 
-  const paragraphText = "Chúng tôi là đội ngũ những nhà sáng tạo đam mê thị giác. Hơn thế nữa, chúng tôi hiểu cách kể câu chuyện của bạn một cách chân thực nhất. Bằng sự kết hợp giữa nghệ thuật và công nghệ, chúng tôi mang đến những giải pháp truyền thông hoàn hảo, giúp thương hiệu của bạn tỏa sáng.";
+  const paragraphText = "Song Nguyễn Media là đội ngũ quay phim, nhiếp ảnh và thiết kế. Chúng tôi sản xuất nội dung hình ảnh và quản lý các chiến dịch truyền thông nhằm tăng nhận diện thương hiệu cho khách hàng.";
 
   return (
     <section ref={sectionRef} className="bg-[#F6E4CF] rounded-t-[25px] relative z-10 py-20 md:py-32 px-6">
       <div className="max-w-3xl mx-auto flex flex-col items-center">
         <p className="about-intro text-[#321C04] text-base md:text-lg text-center leading-relaxed max-w-lg mb-10">
-          Chúng tôi tạo ra những sản phẩm truyền thông mang đậm dấu ấn riêng, kết nối cảm xúc và lan tỏa giá trị đích thực.
+          Chúng tôi sản xuất nội dung hình ảnh giúp doanh nghiệp kết nối với khách hàng.
         </p>
 
         <div className="about-intro flex flex-wrap justify-center items-center gap-4">
@@ -100,7 +100,7 @@ export default function AboutSection() {
         <div ref={logoRef} className="flex flex-col items-start gap-4 flex-shrink-0">
           <LogoSVG />
           <span className="text-xs uppercase tracking-widest font-semibold text-[#321C04] whitespace-pre-line">
-            Sáng tạo /{"\n"}Đột phá
+            Sản xuất /{"\n"}Nội dung
           </span>
         </div>
         

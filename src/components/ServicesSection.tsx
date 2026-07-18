@@ -70,7 +70,7 @@ export default function ServicesSection() {
 
       <div className="max-w-6xl mx-auto w-full relative z-10">
         <p className="text-[#D9C4AA] text-sm uppercase tracking-[0.2em] font-semibold mb-16 px-4">
-          Chuyên Môn Của Chúng Tôi
+          Dịch vụ
         </p>
 
         <div ref={listRef} className="flex flex-col">

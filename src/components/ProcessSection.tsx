@@ -9,22 +9,22 @@ const PROCESS_STEPS = [
   {
     number: "01",
     title: "Pre-production",
-    description: "Khởi nguồn từ một ý tưởng đột phá. Chúng tôi nghiên cứu thương hiệu, thấu hiểu khách hàng mục tiêu và xây dựng kịch bản chi tiết, storyboard hoàn chỉnh."
+    description: "Tìm hiểu yêu cầu, nghiên cứu sản phẩm, lên kịch bản và chuẩn bị storyboard trước khi tiến hành quay."
   },
   {
     number: "02",
     title: "Production",
-    description: "Biến kịch bản thành những thước phim thực tế. Với đội ngũ đạo diễn, quay phim và hệ thống thiết bị chuẩn điện ảnh, chúng tôi kiểm soát chất lượng từng khung hình."
+    description: "Đội ngũ đạo diễn, quay phim và tổ chức sản xuất ghi hình tại bối cảnh theo kế hoạch đã thống nhất."
   },
   {
     number: "03",
     title: "Post-production",
-    description: "Phép màu diễn ra ở phòng dựng. Cắt ghép, chỉnh màu (color grading), kỹ xảo (VFX) và thiết kế âm thanh (sound design) được hòa quyện để tạo ra một tác phẩm hoàn hảo."
+    description: "Thực hiện dựng phim, chỉnh màu, hiệu ứng hình ảnh (VFX) và xử lý âm thanh."
   },
   {
     number: "04",
     title: "Release & Amplify",
-    description: "Tác phẩm hoàn thiện được tối ưu hóa định dạng cho mọi nền tảng truyền thông, sẵn sàng bùng nổ và chạm đến trái tim khán giả."
+    description: "Bàn giao file chất lượng cao và hỗ trợ điều chỉnh định dạng video phù hợp với các nền tảng phân phối."
   }
 ];
 
@@ -81,10 +81,10 @@ export default function ProcessSection() {
 
       <div className="process-intro shrink-0 px-6 md:px-16 z-10 mb-6 md:mb-12">
         <h2 className="text-[#D9C4AA] text-4xl md:text-5xl lg:text-6xl font-normal leading-[1.2]">
-          Quy trình <em className="not-italic text-white" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>sáng tạo</em>
+          Quy trình <em className="not-italic text-white" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>sản xuất</em>
         </h2>
         <p className="text-white/60 mt-4 max-w-sm text-sm md:text-base">
-          Mỗi tác phẩm là một hành trình nghệ thuật được kiểm soát chặt chẽ từ những nét phác thảo đầu tiên đến thành phẩm cuối cùng.
+          Chúng tôi áp dụng quy trình làm việc tiêu chuẩn để đảm bảo tiến độ và chất lượng cho từng dự án.
         </p>
       </div>
 

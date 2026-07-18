@@ -8,12 +8,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 const TESTIMONIALS = [
   {
-    text: "Song Nguyễn Media không chỉ là một agency sản xuất, họ là những người nghệ sĩ thực thụ. Mọi khung hình đều chứa đựng linh hồn của thương hiệu và chạm đến cảm xúc người xem một cách tự nhiên nhất.",
+    text: "Đội ngũ Song Nguyễn Media nắm bắt tốt yêu cầu của chúng tôi. Các video và hình ảnh được sản xuất chuyên nghiệp và đúng tiến độ.",
     author: "Elena Tran",
     role: "Giám đốc Marketing, TechStart"
   },
   {
-    text: "Làm việc với đội ngũ Song Nguyễn là một trải nghiệm tuyệt vời. Họ hiểu chính xác điều chúng tôi cần trước cả khi chúng tôi diễn đạt nó thành lời. Chiến dịch vừa qua đã vượt xa mọi KPI mong đợi.",
+    text: "Chúng tôi hài lòng với chất lượng hình ảnh từ chiến dịch vừa qua. Các bạn hỗ trợ nhiệt tình trong suốt quá trình quay và dựng phim.",
     author: "Hoàng Nguyễn",
     role: "Founder, The Coffee House"
   }
@@ -60,7 +60,7 @@ export default function TestimonialsSection() {
       <div className="max-w-6xl mx-auto">
         <div className="mb-16 text-center testi-title">
           <h2 className="text-[#321C04] text-3xl md:text-5xl font-normal leading-tight">
-            Khách hàng nói gì về <em className="not-italic" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>chúng tôi</em>
+            Khách hàng <em className="not-italic" style={{ fontFamily: "'Caster', sans-serif", fontStyle: 'normal' }}>đánh giá</em>
           </h2>
         </div>
 

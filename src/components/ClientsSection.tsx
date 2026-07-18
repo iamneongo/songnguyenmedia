@@ -47,7 +47,7 @@ export default function ClientsSection() {
     <section ref={containerRef} className="bg-black py-24 md:py-32 relative z-10 border-t border-white/10 overflow-hidden">
       <div className="flex flex-col items-center">
         <p className="text-[#D9C4AA] text-sm uppercase tracking-[0.2em] font-semibold mb-12 text-center px-6">
-          Đối tác đồng hành cùng Song Nguyễn Media
+          Khách hàng của chúng tôi
         </p>
         
         {/* Marquee Wrapper */}
