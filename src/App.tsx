@@ -73,7 +73,7 @@ export default function App() {
 
   return (
     <ReactLenis root>
-      <div className="font-sans antialiased text-white relative">
+      <div className="font-sans antialiased text-white relative overflow-x-hidden">
         {/* PRELOADER */}
         <div 
           ref={preloaderRef} 
